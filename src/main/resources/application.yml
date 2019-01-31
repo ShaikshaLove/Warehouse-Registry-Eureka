@@ -1,0 +1,14 @@
+server:
+  port: 8761
+  
+#this below lines disable the wharehouse-registry-eureka from not being a client to itself 
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    
+#Naming this spring-boot eureka server
+
+spring:
+  application:
+    name:  WHAREHOUSE-EUREKA-SERVICE-REGISTRY
