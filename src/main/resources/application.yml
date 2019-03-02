@@ -5,7 +5,7 @@ server:
 #this below lines disable the wharehouse-registry-eureka from not being a client to itself 
 eureka:
  instance:
-   hostname: localhost
+   hostname: sa-warehouse-service-registry-SANDBOX.mymicroapps.net
  client:
    register-with-eureka: false
    fetch-registry: false
